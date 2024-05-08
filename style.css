@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 6px;
+}
+
+.bulbs {
+    display: flex;
+    gap: 12px;
+}
+
+.bulbs .bulb {
+    border: 1px solid #606060;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 10px;
+    color: #606060;
+}
+
+.title {
+    font-size: 20px;
+    color: grey;
+}
+
+.title p {
+    font-size: 10px;
+}
+
+/* BELOW CSS IS FOR TYPED AREA  */
+.typed-area {
+    /* border: 1px solid red; */
+    padding: 0px 15px;
+}
+
+.typed-area textarea {
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    resize: none;
+}
+
+/* BELOW CSS IS FOR KEY AREA */
+.key-area {
+    /* border: 1px solid blue; */
+    padding: 5px 15px;
+}
+
+.key-area .keyboard {
+    border: 1px solid black;
+    padding: 10px 12px;
+    border-radius: 12px;
+    background-color: #0c0c0c;
+}
+
+.btn-layer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.btn-1 {
+    padding: 3px 10px;
+    width: 4.5%;
+}
+
+.withFunction {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 12px;
+    color: blue;
+}
+
+.withFunction img {
+    width: 8px;
+    /* filter: hue-rotate(180deg); */
+}
+
+/* UTITLITY SECTION  */
+/* { */
+.btn {
+    border: 1px solid black;
+    border-radius: 7px;
+    position: relative;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 8px #151515;
+}
+.btn:hover {
+    background-color: rgb(8, 8, 8);
+}
+
+.text-center {
+    text-align: center;
+}
+.df{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* } */
+
+.btn-2 {
+    padding: 12px 10px;
+    width: 4.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+/* CSS FOR SPECIAL KEYS  */
+.bkSpace {
+    width: 10%;
+    padding: 0px;
+}
+.tab{
+    width: 9.5%;
+    padding: 21px 0px;
+}
+.caps{
+    width: 9.5%;
+}
+.enter{
+    width: 9%;
+}
+.shift{
+    width: 12%;
+}
+.ctrl{
+    width: 7%;
+    padding: 21px 0px;
+}
+.alt{
+    width: 7%;
+    padding: 21px 0px;
+}
+.fn{
+    width: 7%;
+    padding: 21px 0px;
+    color: blue;
+}
+.win{
+    width: 7%;
+    padding: 21px 0px;
+}
+.space{
+    width: 27%;
+}
+.arrow-area{
+    width: 22%;
+}
+.arrow-box-1{
+    display: flex;
+    justify-content: center;
+}
+.arrow-box-2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.arrow{
+    width: 16%;
+    padding: 6px 10px;
+    overflow: visible;
+}
